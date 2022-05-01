@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>NSevenZoo</title>
+</head>
+<main id="signed-out-flow" style="display: none" >
+<body>
+    <header id="header" class="header">       
+         <div class="container">
+            <img src="jpg/near_logo.png" alt="WAYUP" class="logo"> 
+            <div class="wrapper">
+                    <div class="offer">
+                        <h1 class="title">
+                            Many animals in Ukraine will face starvation because no one takes care of <span>them!</span> 
+                        </h1>  
+                        <p class="intro">
+                            Ukrainian zoos are in dire need of help now and need help after the end of the war. There are no visitors in zoos, which is provided for the lack of budget.   
+                        </p>
+                        <button id="sign-in-button" class="btn">Connect wallet</button>
+                    </div>
+                    <div class="globe">
+                        <div class="bird">
+                            <div class="body">
+                                <div class="eye left"></div>
+                                <div class="eye right"></div>
+                                <div class="beak"><div></div></div>
+                                <div class="feet"></div>
+                                <div class="wire"></div>
+                            </div>
+                            <div class="hills"></div>
+                            <div class="cloud"></div>
+                            <div class="cloud small"></div>
+                        </div>
+                    </div>
+            </div>
+        </div>       
+    </header>
+</main>
+    <section id="signed-in-flow" style="display: none" id="learn" class="learn">
+        <div class="container">
+            <button class="link" style="float: right" id="sign-out-button">
+        Sign out
+            </button>
+            <h2 class="section-title">Your generous donations can save many lives!</h2>
+            <div class="skills">
+                <div class="skill">
+                    <div style="margin-left: auto; margin-right: auto">
+                        <img class="photo" style="margin-top: 30px; width: 100%;" src="./jpg/panda.gif"/>
+                        <div>
+                            <p>Help Panda</p>
+                            <form id="pform">
+                            <p>
+                                Donate: <input style="width: 100px; background-color: white;" min="1" step="1" type="number" required name="" id="panda">
+                                <span title="NEAR Tokens">Ⓝ</span>
+                            </p>
+                            <input style="background-color: #0072ce; color: #efefef;" type="submit" value="Donate & Mint">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                 <div class="skill skill-travel">
+                    <div style="margin-left: auto; margin-right: auto">
+                        <img style="margin-top: 30px; width: 76%" src="./jpg/ken.gif" />
+                    <div>
+                        <p>Help Kangaroo</p>
+                        <form id="kform">
+                            <p>
+                                Donate: <input style="width: 100px; background-color: white;" min="1" step="1" type="number" required name="" id="kangaroo">
+                                <span title="NEAR Tokens">Ⓝ</span>
+                            </p>
+                            <input style="background-color: #0072ce; color: #efefef;" type="submit" value="Donate & Mint">
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                 <div class="skill skill-create">
+                    <div style="margin-left: auto; margin-right: auto">
+                        <img
+                            style="margin-top: 30px; width: 100%"
+                            src="./jpg/elephant.gif"
+                            />
+                        <div>
+                            <p>Help Elephant</p>
+                            <form id="eform">
+                                <p>
+                                Donate: <input style="width: 100px; background-color: white;" min="1" step="1" type="number" required name="" id="elephant">
+                                <span title="NEAR Tokens">Ⓝ</span>
+                                </p>
+                                <input style="background-color: #0072ce; color: #efefef;" type="submit" value="Donate & Mint">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+           </div> 
+        </div>
+    </section>
+    
+    <footer id="footer" class="footer">
+        <div class="container">
+            <p>© NSeven Project</p>
+        </div>
+    </footer>  
+    <script src="./index.js"></script> 
+</body>
+</html>
